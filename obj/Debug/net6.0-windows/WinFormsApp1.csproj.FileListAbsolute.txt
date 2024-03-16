@@ -18,3 +18,9 @@ D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.
 D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmEmployees.resources
 D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmHome.resources
 D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Resources.resources
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.sourcelink.json
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmLogin.resources
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmMenuFood.resources
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmSetting.resources
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmTable.resources
+D:\FPT\Semester5-FPTU\PRN211\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.frmTakeaway.resources
