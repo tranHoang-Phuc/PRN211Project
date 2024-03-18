@@ -63,6 +63,7 @@
             btnAddTable.TabIndex = 2;
             btnAddTable.Text = "Thêm bàn";
             btnAddTable.UseVisualStyleBackColor = false;
+            btnAddTable.Click += btnAddTable_Click;
             // 
             // frmAddTable
             // 

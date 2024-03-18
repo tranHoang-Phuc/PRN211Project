@@ -3,23 +3,91 @@
   "WorkspaceRootPath": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\frmtakeaway.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtakeaway.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\frmtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmaddtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmaddtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmaddtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmaddtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\takeawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\takeawaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\billinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\billinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\controller\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:controller\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\frmtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmtakeaway.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtakeaway.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|d:\\fpt\\semester5-fptu\\prn211\\winformsapp1\\frmtakeaway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmtakeaway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F45A1B80-83BD-4D34-96C0-B8F3D1C1B7AF}|WinFormsApp1.csproj|solutionrelative:frmtakeaway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,65 +107,281 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Resources.resx",
-              "RelativeDocumentMoniker": "Resources.resx",
-              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Resources.resx",
-              "RelativeToolTip": "Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-03-16T17:23:41.013Z",
+              "Title": "frmAddTable.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmAddTable.cs",
+              "RelativeDocumentMoniker": "frmAddTable.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmAddTable.cs",
+              "RelativeToolTip": "frmAddTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:45:44.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmTakeaway.Designer.cs",
-              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.Designer.cs",
-              "RelativeDocumentMoniker": "frmTakeaway.Designer.cs",
-              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.Designer.cs",
-              "RelativeToolTip": "frmTakeaway.Designer.cs",
-              "ViewState": "AQIAALEBAAAAAAAAAAAQwMwBAAAKAAAA",
+              "DocumentIndex": 2,
+              "Title": "frmAddTable.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmAddTable.cs",
+              "RelativeDocumentMoniker": "frmAddTable.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmAddTable.cs [Design]",
+              "RelativeToolTip": "frmAddTable.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:21:04.366Z",
+              "WhenOpened": "2024-03-17T19:45:42.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmTable.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.cs",
+              "RelativeDocumentMoniker": "frmTable.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.cs",
+              "RelativeToolTip": "frmTable.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAiwPEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:39:19.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "frmTable.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.cs",
+              "RelativeDocumentMoniker": "frmTable.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.cs [Design]",
+              "RelativeToolTip": "frmTable.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:37:04.483Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmHome.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmHome.cs",
+              "RelativeDocumentMoniker": "frmHome.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmHome.cs [Design]",
+              "RelativeToolTip": "frmHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:36:59.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TableController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\TableController.cs",
+              "RelativeDocumentMoniker": "Controller\\TableController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\TableController.cs",
+              "RelativeToolTip": "Controller\\TableController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:25.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmBill.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmBill.cs",
+              "RelativeDocumentMoniker": "frmBill.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmBill.cs [Design]",
+              "RelativeToolTip": "frmBill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:37:01.659Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEmployees.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmEmployees.cs",
+              "RelativeDocumentMoniker": "frmEmployees.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmEmployees.cs [Design]",
+              "RelativeToolTip": "frmEmployees.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:36:58.234Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIAxwCAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:26:46.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmLogin.cs [Design]",
+              "RelativeToolTip": "frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:26:44.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmHome.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmHome.cs",
+              "RelativeDocumentMoniker": "frmHome.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmHome.cs",
+              "RelativeToolTip": "frmHome.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwD4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:43.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TakeAwayController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\TakeAwayController.cs",
+              "RelativeDocumentMoniker": "Controller\\TakeAwayController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\TakeAwayController.cs",
+              "RelativeToolTip": "Controller\\TakeAwayController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:24.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controller\\LoginController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\LoginController.cs",
+              "RelativeToolTip": "Controller\\LoginController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:23.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\JobController.cs",
+              "RelativeDocumentMoniker": "Controller\\JobController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\JobController.cs",
+              "RelativeToolTip": "Controller\\JobController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\FoodController.cs",
+              "RelativeDocumentMoniker": "Controller\\FoodController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\FoodController.cs",
+              "RelativeToolTip": "Controller\\FoodController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:18.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controller\\EmployeesController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\EmployeesController.cs",
+              "RelativeToolTip": "Controller\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controller\\CategoryController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\CategoryController.cs",
+              "RelativeToolTip": "Controller\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:16.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BillInfoController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\BillInfoController.cs",
+              "RelativeDocumentMoniker": "Controller\\BillInfoController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\BillInfoController.cs",
+              "RelativeToolTip": "Controller\\BillInfoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:14.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\BillController.cs",
+              "RelativeDocumentMoniker": "Controller\\BillController.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Controller\\BillController.cs",
+              "RelativeToolTip": "Controller\\BillController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:24:53.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:23:54.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmTakeaway.Designer.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.Designer.cs",
+              "RelativeDocumentMoniker": "frmTakeaway.Designer.cs",
+              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.Designer.cs",
+              "RelativeToolTip": "frmTakeaway.Designer.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:23:45.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "frmTakeaway.cs [Design]",
               "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.cs",
               "RelativeDocumentMoniker": "frmTakeaway.cs",
               "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTakeaway.cs [Design]",
               "RelativeToolTip": "frmTakeaway.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:20:58.655Z",
+              "WhenOpened": "2024-03-17T19:18:59.843Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:19:28.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmTable.Designer.cs",
-              "DocumentMoniker": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.Designer.cs",
-              "RelativeDocumentMoniker": "frmTable.Designer.cs",
-              "ToolTip": "D:\\FPT\\Semester5-FPTU\\PRN211\\WinFormsApp1\\frmTable.Designer.cs",
-              "RelativeToolTip": "frmTable.Designer.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAYwCwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:17:06.594Z",
-              "EditorCaption": ""
             }
           ]
         },

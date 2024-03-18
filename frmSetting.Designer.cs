@@ -37,118 +37,123 @@
             lbAcccountName = new Label();
             SuspendLayout();
             // 
-            // btnExit
+            // btnAccount
             // 
-            this.btnExit.Image = global::WinFormsApp1.Resources.fSetting_icon_Thoat_32;
-            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(-2, 217);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnExit.Size = new System.Drawing.Size(205, 40);
-            this.btnExit.TabIndex = 5;
-            this.btnExit.Text = "Thoát";
-            this.btnExit.UseVisualStyleBackColor = true;
-            // 
-            // btLogout
-            // 
-            this.btLogout.Image = global::WinFormsApp1.Resources.fSetting_icon_Exit_32;
-            this.btLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btLogout.Location = new System.Drawing.Point(-2, 177);
-            this.btLogout.Margin = new System.Windows.Forms.Padding(0);
-            this.btLogout.Name = "btLogout";
-            this.btLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btLogout.Size = new System.Drawing.Size(205, 40);
-            this.btLogout.TabIndex = 4;
-            this.btLogout.Text = "Đăng xuất";
-            this.btLogout.UseVisualStyleBackColor = true;
-            // 
-            // btnLanguage
-            // 
-            this.btnLanguage.Enabled = false;
-            this.btnLanguage.Image = global::WinFormsApp1.Resources.fSetting_icon_Language_32;
-            this.btnLanguage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLanguage.Location = new System.Drawing.Point(-2, 113);
-            this.btnLanguage.Margin = new System.Windows.Forms.Padding(0);
-            this.btnLanguage.Name = "btnLanguage";
-            this.btnLanguage.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnLanguage.Size = new System.Drawing.Size(205, 40);
-            this.btnLanguage.TabIndex = 4;
-            this.btnLanguage.Text = "Ngôn ngữ";
-            this.btnLanguage.UseVisualStyleBackColor = true;
+            btnAccount.Enabled = false;
+            btnAccount.Image = Resources.fSetting_icon_profile_32;
+            btnAccount.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAccount.Location = new Point(-2, 28);
+            btnAccount.Margin = new Padding(0);
+            btnAccount.Name = "btnAccount";
+            btnAccount.Padding = new Padding(10, 0, 0, 0);
+            btnAccount.Size = new Size(205, 40);
+            btnAccount.TabIndex = 0;
+            btnAccount.Text = "Tài khoản";
+            btnAccount.UseVisualStyleBackColor = true;
+            btnAccount.Click += btnClose_Click;
             // 
             // btnSetting
             // 
-            this.btnSetting.BackColor = System.Drawing.Color.White;
-            this.btnSetting.Enabled = false;
-            this.btnSetting.Image = global::WinFormsApp1.Resources.fSetting_icon_settting_32;
-            this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting.Location = new System.Drawing.Point(-2, 73);
-            this.btnSetting.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSetting.Size = new System.Drawing.Size(205, 40);
-            this.btnSetting.TabIndex = 2;
-            this.btnSetting.Text = "Cài đặt";
-            this.btnSetting.UseVisualStyleBackColor = false;
+            btnSetting.BackColor = Color.White;
+            btnSetting.Enabled = false;
+            btnSetting.Image = Resources.fSetting_icon_settting_32;
+            btnSetting.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSetting.Location = new Point(-2, 73);
+            btnSetting.Margin = new Padding(0);
+            btnSetting.Name = "btnSetting";
+            btnSetting.Padding = new Padding(10, 0, 0, 0);
+            btnSetting.Size = new Size(205, 40);
+            btnSetting.TabIndex = 2;
+            btnSetting.Text = "Cài đặt";
+            btnSetting.UseVisualStyleBackColor = false;
             // 
-            // btnAccount
+            // btnLanguage
             // 
-            this.btnAccount.Enabled = false;
-            this.btnAccount.Image = global::WinFormsApp1.Resources.fSetting_icon_profile_32;
-            this.btnAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAccount.Location = new System.Drawing.Point(-2, 28);
-            this.btnAccount.Margin = new System.Windows.Forms.Padding(0);
-            this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAccount.Size = new System.Drawing.Size(205, 40);
-            this.btnAccount.TabIndex = 0;
-            this.btnAccount.Text = "Tài khoản";
-            this.btnAccount.UseVisualStyleBackColor = true;
+            btnLanguage.Enabled = false;
+            btnLanguage.Image = Resources.fSetting_icon_Language_32;
+            btnLanguage.ImageAlign = ContentAlignment.MiddleLeft;
+            btnLanguage.Location = new Point(-2, 113);
+            btnLanguage.Margin = new Padding(0);
+            btnLanguage.Name = "btnLanguage";
+            btnLanguage.Padding = new Padding(10, 0, 0, 0);
+            btnLanguage.Size = new Size(205, 40);
+            btnLanguage.TabIndex = 4;
+            btnLanguage.Text = "Ngôn ngữ";
+            btnLanguage.UseVisualStyleBackColor = true;
+            btnLanguage.Click += btnClose_Click;
+            // 
+            // btnExit
+            // 
+            btnExit.Image = Resources.fSetting_icon_Thoat_32;
+            btnExit.ImageAlign = ContentAlignment.MiddleLeft;
+            btnExit.Location = new Point(-2, 217);
+            btnExit.Margin = new Padding(0);
+            btnExit.Name = "btnExit";
+            btnExit.Padding = new Padding(10, 0, 0, 0);
+            btnExit.Size = new Size(205, 40);
+            btnExit.TabIndex = 5;
+            btnExit.Text = "Thoát";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnClose_Click;
+            // 
+            // btLogout
+            // 
+            btLogout.Image = Resources.fSetting_icon_Exit_32;
+            btLogout.ImageAlign = ContentAlignment.MiddleLeft;
+            btLogout.Location = new Point(-2, 177);
+            btLogout.Margin = new Padding(0);
+            btLogout.Name = "btLogout";
+            btLogout.Padding = new Padding(10, 0, 0, 0);
+            btLogout.Size = new Size(205, 40);
+            btLogout.TabIndex = 4;
+            btLogout.Text = "Đăng xuất";
+            btLogout.UseVisualStyleBackColor = true;
+            btLogout.Click += btnClose_Click;
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Black;
-            this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnClose.Location = new System.Drawing.Point(162, -1);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(41, 29);
-            this.btnClose.TabIndex = 6;
-            this.btnClose.Text = "X";
-            this.btnClose.UseVisualStyleBackColor = false;
+            btnClose.BackColor = Color.Black;
+            btnClose.ForeColor = SystemColors.ControlLightLight;
+            btnClose.Location = new Point(162, -1);
+            btnClose.Margin = new Padding(0);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(41, 29);
+            btnClose.TabIndex = 6;
+            btnClose.Text = "X";
+            btnClose.UseVisualStyleBackColor = false;
             // 
             // lbAcccountName
             // 
-            this.lbAcccountName.AutoSize = true;
-            this.lbAcccountName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbAcccountName.Location = new System.Drawing.Point(67, 4);
-            this.lbAcccountName.Name = "lbAcccountName";
-            this.lbAcccountName.Size = new System.Drawing.Size(65, 24);
-            this.lbAcccountName.TabIndex = 7;
-            this.lbAcccountName.Text = "label1";
+            lbAcccountName.AutoSize = true;
+            lbAcccountName.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbAcccountName.Location = new Point(67, 4);
+            lbAcccountName.Name = "lbAcccountName";
+            lbAcccountName.Size = new Size(54, 19);
+            lbAcccountName.TabIndex = 7;
+            lbAcccountName.Text = "label1";
             // 
-            // fSetting
+            // frmSetting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(202, 258);
-            this.Controls.Add(this.lbAcccountName);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btLogout);
-            this.Controls.Add(this.btnLanguage);
-            this.Controls.Add(this.btnSetting);
-            this.Controls.Add(this.btnAccount);
-            this.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "fSetting";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "fSetting";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 16F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
+            ClientSize = new Size(202, 258);
+            Controls.Add(lbAcccountName);
+            Controls.Add(btnClose);
+            Controls.Add(btnExit);
+            Controls.Add(btLogout);
+            Controls.Add(btnLanguage);
+            Controls.Add(btnSetting);
+            Controls.Add(btnAccount);
+            Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "frmSetting";
+            StartPosition = FormStartPosition.Manual;
+            Text = "fSetting";
+            Load += fSetting_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

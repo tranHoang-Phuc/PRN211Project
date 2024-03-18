@@ -33,7 +33,7 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             panel1 = new Panel();
             btnShow = new Button();
-            dateTimePicker1 = new DateTimePicker();
+            dtpEnd = new DateTimePicker();
             dtpStart = new DateTimePicker();
             label2 = new Label();
             lbDayBegin = new Label();
@@ -80,6 +80,7 @@
             btnCloseFormBill.TabIndex = 2;
             btnCloseFormBill.Text = "X";
             btnCloseFormBill.UseVisualStyleBackColor = false;
+            this.btnCloseFormBill.Click += new System.EventHandler(this.btnCloseFormBill_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -104,7 +105,7 @@
             // 
             panel1.BackColor = Color.FromArgb(224, 224, 224);
             panel1.Controls.Add(btnShow);
-            panel1.Controls.Add(dateTimePicker1);
+            panel1.Controls.Add(dtpEnd);
             panel1.Controls.Add(dtpStart);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(lbDayBegin);
@@ -129,17 +130,18 @@
             btnShow.TabIndex = 9;
             btnShow.Text = "Xem";
             btnShow.UseVisualStyleBackColor = false;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click_2);
             // 
-            // dateTimePicker1
+            // dtpEnd
             // 
-            dateTimePicker1.Anchor = AnchorStyles.Left;
-            dateTimePicker1.CalendarFont = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePicker1.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePicker1.Location = new Point(80, 29);
-            dateTimePicker1.Margin = new Padding(2);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(203, 23);
-            dateTimePicker1.TabIndex = 7;
+            dtpEnd.Anchor = AnchorStyles.Left;
+            dtpEnd.CalendarFont = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpEnd.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpEnd.Location = new Point(80, 29);
+            dtpEnd.Margin = new Padding(2);
+            dtpEnd.Name = "dtpEnd";
+            dtpEnd.Size = new Size(203, 23);
+            dtpEnd.TabIndex = 7;
             // 
             // dtpStart
             // 
@@ -201,6 +203,8 @@
             lsvBill.TabIndex = 38;
             lsvBill.UseCompatibleStateImageBehavior = false;
             lsvBill.View = View.Details;
+            this.lsvBill.SelectedIndexChanged += new System.EventHandler(this.lsvBill_SelectedIndexChanged_1);
+
             // 
             // columnHeader1
             // 
@@ -288,6 +292,8 @@
             btnDelete.TabIndex = 33;
             btnDelete.Text = "Xoá";
             btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+
             // 
             // txtTotal
             // 
@@ -339,7 +345,7 @@
         private Panel panel1;
         private Label lbDayBegin;
         private Button btnShow;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpEnd;
         private DateTimePicker dtpStart;
         private Label label2;
         private Label label3;

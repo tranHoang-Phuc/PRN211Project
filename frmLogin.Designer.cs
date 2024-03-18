@@ -80,6 +80,8 @@ namespace WinFormsApp1
             btnLogin.TabIndex = 3;
             btnLogin.Text = "Đăng nhập";
             btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+
             // 
             // panel4
             // 
@@ -239,6 +241,7 @@ namespace WinFormsApp1
             Margin = new Padding(4);
             Name = "frmLogin";
             Text = "Đăng nhập";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fLogin_FormClosing);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel4.ResumeLayout(false);
