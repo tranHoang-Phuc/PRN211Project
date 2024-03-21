@@ -43,6 +43,11 @@ namespace WinFormsApp1.Controller
             return _billModel.GetUnCheckBillIDByTableId(id);
         }
 
+        public List<Bill> GetListUncheck(int id)
+        {
+            return _billModel.GetUnCheckBillsIDByTableId(id);
+        }
+
         public int getMaxIdBill()
         {
             return _billModel.GetMaxIDBill();

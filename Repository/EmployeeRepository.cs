@@ -11,6 +11,7 @@ namespace WinFormsApp1.Repository
 {
     public class EmployeeRepository
     {
+        private static bool isSort = false;
         public void AddEmployees(Employee newEmployee)
         {
             using (CoffeemanagerContext db = new CoffeemanagerContext())
@@ -112,12 +113,64 @@ namespace WinFormsApp1.Repository
                 return listEmployees.ToList();
             }
         }
+        public List<EmployeeDetail> GetListEmployees(int column)
+        {
+            using (CoffeemanagerContext db = new CoffeemanagerContext())
+            {
+                var listEmployees = (from e in db.Employees
+                                    join j in db.Jobs on e.JobId equals j.Id
+                                    select new EmployeeDetail
+                                    {
+                                        Id = e.Id,
+                                        FirstName = e.FirstName,
+                                        LastName = e.LastName,
+                                        Email = e.Email,
+                                        PhoneNumber = e.PhoneNumber,
+                                        Job = j.Name,
+                                        IdJob = j.Id,
+                                        DateStartWork = e.DateStartWork,
+                                        UserName = e.UserName,
+                                        Password = e.Password,
+                                    });
+                if (column == 0)
+                {
+                } else  if (column == 1)
+                {
+                    listEmployees.OrderBy(e => e.FirstName);
+                } else if(column == 2)
+                {
+                    listEmployees.OrderBy(e => e.LastName);
+                }
+                else if(column == 3)
+                {
+                    listEmployees.OrderBy(e => e.Email);
+                } else if(column == 4)
+                {
+                    listEmployees.OrderBy(e => e.PhoneNumber);
+                } else if(column == 5)
+                {
+                    listEmployees.OrderBy(e => e.Job);
+                } else if(column == 6)
+                {
+                    listEmployees.OrderBy(e => e.DateStartWork);
+                }
+                return listEmployees.ToList();
+            }
+        }
 
         public Employee LoginSuccess(string userName, string password)
         {
             using (CoffeemanagerContext db = new CoffeemanagerContext())
             {
                 return db.Employees.Where(e => e.UserName == userName && e.Password == password).FirstOrDefault();
+            }
+        }
+
+        public bool IsInvalidUserName(string text)
+        {
+            using (CoffeemanagerContext db = new CoffeemanagerContext())
+            {
+                return db.Employees.Where(e => e.UserName == text).FirstOrDefault() != null;
             }
         }
     }

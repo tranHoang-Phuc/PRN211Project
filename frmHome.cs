@@ -76,12 +76,15 @@ namespace WinFormsApp1
                     ChangeColorBtn(btnBill, btnHome, btnMenu, btnRevenua, btnTakeAway, btnSetting);
                     break;
                 case "Nhân sự":
-                    OpenChildForm(new frmEmployees());
-                    ChangeColorBtn(btnRevenua, btnBill, btnHome, btnMenu, btnTakeAway, btnSetting);
+                    if (currentEmployees.JobId == 2 || currentEmployees.JobId == 3)
+                    {
+                        OpenChildForm(new frmEmployees());
+                        ChangeColorBtn(btnRevenua, btnBill, btnHome, btnMenu, btnTakeAway, btnSetting);
+                    }
                     break;
                 case "Cài đặt":
                     ChangeColorBtn(btnSetting, btnBill, btnHome, btnMenu, btnTakeAway, btnRevenua);
-                    frmSetting f = new frmSetting();
+                    frmSetting f = new frmSetting(this);
                     f.Location = new Point(20, 500);
                     f.ShowDialog();
                     break;

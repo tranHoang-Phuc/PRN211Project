@@ -93,7 +93,7 @@
             btnCloseFormMenuFood.TabIndex = 4;
             btnCloseFormMenuFood.Text = "X";
             btnCloseFormMenuFood.UseVisualStyleBackColor = false;
-            this.btnCloseFormMenuFood.Click += new System.EventHandler(this.btnCloseFormMenuFood_Click);
+            btnCloseFormMenuFood.Click += btnCloseFormMenuFood_Click;
             // 
             // btnUpdate
             // 
@@ -104,7 +104,7 @@
             btnUpdate.TabIndex = 4;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = false;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnDelete
             // 
@@ -115,8 +115,7 @@
             btnDelete.TabIndex = 5;
             btnDelete.Text = "Xóa món";
             btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnUpdate_Click);
-
+            btnDelete.Click += btnUpdate_Click;
             // 
             // btnAdd
             // 
@@ -127,7 +126,7 @@
             btnAdd.TabIndex = 4;
             btnAdd.Text = "Thêm món";
             btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnEditExit
             // 
@@ -142,7 +141,7 @@
             btnEditExit.TabIndex = 6;
             btnEditExit.Text = "X";
             btnEditExit.UseVisualStyleBackColor = false;
-            this.btnEditExit.Click += new System.EventHandler(this.btnEditExit_Click);
+            btnEditExit.Click += btnEditExit_Click;
             // 
             // groupBox1
             // 
@@ -173,7 +172,7 @@
             lsvFood.TabIndex = 15;
             lsvFood.UseCompatibleStateImageBehavior = false;
             lsvFood.View = View.Details;
-            this.lsvFood.SelectedIndexChanged += new System.EventHandler(this.lsvFood_SelectedIndexChanged);
+            lsvFood.SelectedIndexChanged += lsvFood_SelectedIndexChanged;
             // 
             // clhId
             // 
@@ -222,7 +221,7 @@
             cbFilterDishes.Name = "cbFilterDishes";
             cbFilterDishes.Size = new Size(190, 28);
             cbFilterDishes.TabIndex = 17;
-            this.cbFilterDishes.SelectedIndexChanged += new System.EventHandler(this.cbFilterDishes_SelectedIndexChanged);
+            cbFilterDishes.SelectedIndexChanged += cbFilterDishes_SelectedIndexChanged;
             // 
             // cbFindFoodName
             // 
@@ -236,7 +235,7 @@
             cbFindFoodName.Name = "cbFindFoodName";
             cbFindFoodName.Size = new Size(289, 28);
             cbFindFoodName.TabIndex = 16;
-            this.cbFindFoodName.SelectedIndexChanged += new System.EventHandler(this.cbFindFoodName_SelectedIndexChanged);
+            cbFindFoodName.SelectedIndexChanged += cbFindFoodName_SelectedIndexChanged;
             // 
             // grbEditFood
             // 
@@ -531,7 +530,7 @@
             Margin = new Padding(4);
             Name = "frmMenuFood";
             Text = "fMenuFood";
-            this.Load += new System.EventHandler(this.fMenuFood_Load);
+            Load += fMenuFood_Load;
             groupBox1.ResumeLayout(false);
             pnDSMTop.ResumeLayout(false);
             grbEditFood.ResumeLayout(false);

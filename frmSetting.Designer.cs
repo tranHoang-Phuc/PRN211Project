@@ -121,6 +121,7 @@
             btnClose.TabIndex = 6;
             btnClose.Text = "X";
             btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnClose_Click_1;
             // 
             // lbAcccountName
             // 

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,13 +19,15 @@ namespace WinFormsApp1
         private JobController _jobController;
         private EmployeesController _employeesController;
         private ListViewItem selectedListViewItem;
+        private bool[] isSort;
         public frmEmployees()
         {
             InitializeComponent();
             _jobController = new JobController(this);
             _employeesController = new EmployeesController(this);
             _jobController.LoadListJob();
-            _employeesController.loadListEmployees();
+            _employeesController.loadListEmployees(null);
+            isSort = new bool[7];
         }
 
         private void btnCloseFormRevenue_Click(object sender, EventArgs e)
@@ -81,7 +84,7 @@ namespace WinFormsApp1
                         if (result == DialogResult.OK)
                         {
                             _employeesController.addEmployees(newEmployees);
-                            _employeesController.loadListEmployees();
+                            _employeesController.loadListEmployees(null);
                         }
                     }
                 }
@@ -165,7 +168,7 @@ namespace WinFormsApp1
                     };
                     _employeesController.updateEmployees(newEmployees);
                     ResetForm();
-                    _employeesController.loadListEmployees();
+                    _employeesController.loadListEmployees(null);
                 }
             }
             catch (Exception ex)
@@ -187,7 +190,7 @@ namespace WinFormsApp1
                         {
                             int idEmployees = int.Parse(lsvEmployees.SelectedItems[0].SubItems[0].Text);
                             _employeesController.removeEmployees(idEmployees);
-                            _employeesController.loadListEmployees();
+                            _employeesController.loadListEmployees(null);
                         }
                     }
                 }
@@ -248,7 +251,7 @@ namespace WinFormsApp1
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(txtUserName.Text))
+            if (string.IsNullOrWhiteSpace(txtUserName.Text) || _employeesController.IsInvalidUserName(txtUserName.Text))
             {
                 MessageBox.Show("Vui lòng nhập tên người dùng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
@@ -258,12 +261,115 @@ namespace WinFormsApp1
 
         private bool IsValidEmail(string email)
         {
-            return email.Contains("@") && email.Split('@')[1].Contains(".");
+
+            //return email.Contains("@") && email.Split('@')[1].Contains(".");
+
+            
+            try
+            {
+                var addr = new MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         private void btnCloseFormRevenue_Click_1(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void lsvEmployees_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            int column = e.Column;
+           
+            List<EmployeeDetail> listEmployees = lsvEmployees.Items.Cast<ListViewItem>()
+                .Select(item => new EmployeeDetail
+            {
+                Id = int.Parse(item.SubItems[0].Text),
+                FirstName = item.SubItems[1].Text,
+                LastName = item.SubItems[2].Text,
+                Email = item.SubItems[3].Text,
+                PhoneNumber = item.SubItems[4].Text,
+                Job = item.SubItems[5].Text,
+                DateStartWork = DateTime.Parse(item.SubItems[6].Text),
+                UserName = item.SubItems[7].Text,
+                Password = item.SubItems[8].Text,
+                IdJob = int.Parse(item.SubItems[9].Text)
+            }).ToList();
+
+            // isSort[] : mảng để kiểm tra trạng thái sắp xếp của mỗi cột
+            if (!isSort[column])
+            {
+                if (column == 0)
+                {
+/*
+ 
+ */
+                    listEmployees.Sort((x, y) => y.Id.CompareTo(x.Id)); // GIẢM DẦN
+                    isSort[column] = true;
+                }
+                if (column == 1)
+                {
+                    listEmployees.Sort((x, y) => y.FirstName.CompareTo(x.FirstName));
+                    isSort[column] = true;
+                }
+                if (column == 2)
+                {
+                    listEmployees.Sort((x, y) => y.LastName.CompareTo(x.LastName));
+                    isSort[column] = true;
+                }
+                if (column == 3)
+                {
+                    listEmployees.Sort((x, y) => y.Email.CompareTo(x.Email));
+                    isSort[column] = true;
+                }
+                if (column == 4)
+                {
+                    listEmployees.Sort((x, y) => y.Job.CompareTo(x.Job));
+                    isSort[column] = true;
+                }
+                if (column == 6)
+                {
+                    listEmployees.Sort((x, y) => y.DateStartWork.Value.CompareTo(x.DateStartWork.Value));
+                    isSort[column] = true;
+                }
+            } else
+            {
+                if (column == 0)
+                {
+                    listEmployees.Sort((x, y) => x.Id.CompareTo(y.Id));
+                    isSort[column] = false;
+                }
+                if (column == 1)
+                {
+                    listEmployees.Sort((x, y) => x.FirstName.CompareTo(y.FirstName));
+                    isSort[column] = false;
+                }
+                if (column == 2)
+                {
+                    listEmployees.Sort((x, y) => x.LastName.CompareTo(y.LastName));
+                    isSort[column] = false;
+                }
+                if (column == 3)
+                {
+                    listEmployees.Sort((x, y) => x.Email.CompareTo(y.Email));
+                    isSort[column] = false;
+                }
+                if (column == 4)
+                {
+                    listEmployees.Sort((x, y) => x.Job.CompareTo(y.Job));
+                    isSort[column] = false;
+                }
+                if (column == 6)
+                {
+                    listEmployees.Sort((x, y) => x.DateStartWork.Value.CompareTo(y.DateStartWork.Value));
+                    isSort[column] = false;
+                }
+            }
+            LoadEmployees(listEmployees);
         }
     }
 }

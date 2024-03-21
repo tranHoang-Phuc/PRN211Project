@@ -33,10 +33,21 @@ namespace WinFormsApp1.Controller
 
         }
 
-        public void loadListEmployees()
+        public void loadListEmployees(int? column)
         {
-            List<EmployeeDetail> listEmployees = _employeesModel.GetListEmployees();
-            _fEmployees.LoadEmployees(listEmployees);
+            int a = 0;
+            if (column == null)
+            {
+                a = 1;
+                List<EmployeeDetail> listEmployees = _employeesModel.GetListEmployees();
+                _fEmployees.LoadEmployees(listEmployees);
+            } else
+            {
+                a = 2;
+                List<EmployeeDetail> listEmployees = _employeesModel.GetListEmployees((int)column);
+                _fEmployees.LoadEmployees(listEmployees);
+            }
+            Console.WriteLine(a);
         }
 
         public void updateEmployees(Employee newEmployees)
@@ -47,6 +58,11 @@ namespace WinFormsApp1.Controller
         public void removeEmployees(int idEmployees)
         {
             _employeesModel.RemoveEmployee(idEmployees);
+        }
+
+        public bool IsInvalidUserName(string text)
+        {
+            return _employeesModel.IsInvalidUserName(text);
         }
     }   
 }

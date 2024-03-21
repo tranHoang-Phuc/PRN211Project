@@ -41,7 +41,7 @@ namespace WinFormsApp1.DataAccess
         {
             using (CoffeemanagerContext db = new CoffeemanagerContext())
             {
-                var bill = db.Bills.FirstOrDefault(b => b.IdTableFood == tableId && b.Status.Equals(0));
+                var bill = db.Bills.FirstOrDefault(b => b.IdTableFood == tableId && b.Status == false);
                 if (bill != null)
                 {
                     return bill.Id;
@@ -53,6 +53,16 @@ namespace WinFormsApp1.DataAccess
             }
         }
 
+        public List<Bill> GetUnCheckBillsIDByTableId(int tableId)
+        {
+            using (CoffeemanagerContext db = new CoffeemanagerContext())
+            {
+                var listBill = from b in db.Bills
+                               where b.IdTableFood == tableId && b.Status == false
+                               select b;
+                return listBill.ToList();
+            }
+        }
 
         public int GetMaxIDBill()
         {
@@ -91,7 +101,8 @@ namespace WinFormsApp1.DataAccess
                 var menuItems = from bi in db.BillInfos
                                 join b in db.Bills on bi.IdBill equals b.Id
                                 join f in db.Foods on bi.IdFood equals f.Id
-                                where b.Id == idBill
+                                join t in db.TableFoods on b.IdTableFood equals t.Id
+                                where t.Id == idBill && b.Status == false
                                 select new Menu
                                 {
                                     Name = f.Name,
@@ -132,7 +143,7 @@ namespace WinFormsApp1.DataAccess
                 {
                     var billDetails = from b in db.Bills
                                       join tf in db.TableFoods on b.IdTableFood equals tf.Id
-                                      where b.Status.Equals(1) && b.DateCheckIn >= selectedDateStart && b.DateCheckIn <= selectedDateEnd
+                                      where b.Status == true && b.DateCheckIn >= selectedDateStart && b.DateCheckIn <= selectedDateEnd
                                       select new BillDetail
                                       {
                                           Id = b.Id,
@@ -167,7 +178,7 @@ namespace WinFormsApp1.DataAccess
         {
             using (CoffeemanagerContext data = new CoffeemanagerContext())
             {
-                var billInForToDelete = data.BillInfos.Where(b => b.IdBill == idFB);
+                List<BillInfo> billInForToDelete = data.BillInfos.Where(b => b.IdBill == idFB).ToList();
                 if (billInForToDelete != null)
                 {
                     foreach (BillInfo b in billInForToDelete)
@@ -176,7 +187,6 @@ namespace WinFormsApp1.DataAccess
                         data.SaveChanges();
                     }
                 }
-                //
                 var billToDelete = data.Bills.SingleOrDefault(b => b.Id == idFB);
                 if (billToDelete != null)
                 {

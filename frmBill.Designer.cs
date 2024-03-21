@@ -80,7 +80,7 @@
             btnCloseFormBill.TabIndex = 2;
             btnCloseFormBill.Text = "X";
             btnCloseFormBill.UseVisualStyleBackColor = false;
-            this.btnCloseFormBill.Click += new System.EventHandler(this.btnCloseFormBill_Click);
+            btnCloseFormBill.Click += btnCloseFormBill_Click;
             // 
             // tableLayoutPanel1
             // 
@@ -130,7 +130,7 @@
             btnShow.TabIndex = 9;
             btnShow.Text = "Xem";
             btnShow.UseVisualStyleBackColor = false;
-            this.btnShow.Click += new System.EventHandler(this.btnShow_Click_2);
+            btnShow.Click += btnShow_Click_2;
             // 
             // dtpEnd
             // 
@@ -203,8 +203,8 @@
             lsvBill.TabIndex = 38;
             lsvBill.UseCompatibleStateImageBehavior = false;
             lsvBill.View = View.Details;
-            this.lsvBill.SelectedIndexChanged += new System.EventHandler(this.lsvBill_SelectedIndexChanged_1);
-
+            lsvBill.ColumnClick += lsvBill_ColumnClick;
+            lsvBill.SelectedIndexChanged += lsvBill_SelectedIndexChanged_1;
             // 
             // columnHeader1
             // 
@@ -243,6 +243,7 @@
             lsvBillDetail.TabIndex = 38;
             lsvBillDetail.UseCompatibleStateImageBehavior = false;
             lsvBillDetail.View = View.Details;
+            lsvBillDetail.ColumnClick += lsvBill_ColumnClick;
             // 
             // columnHeader5
             // 
@@ -292,8 +293,7 @@
             btnDelete.TabIndex = 33;
             btnDelete.Text = "Xoá";
             btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-
+            btnDelete.Click += btnDelete_Click;
             // 
             // txtTotal
             // 
@@ -326,7 +326,6 @@
             Controls.Add(btnCloseFormBill);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 3, 4, 3);
             Name = "frmBill";
             Text = "frmBill";
             tableLayoutPanel1.ResumeLayout(false);

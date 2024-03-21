@@ -96,8 +96,7 @@ namespace WinFormsApp1
             btnMenu.Text = "                        Thực đơn";
             btnMenu.TextAlign = ContentAlignment.MiddleLeft;
             btnMenu.UseVisualStyleBackColor = false;
-            this.btnMenu.Click += new System.EventHandler(this.btnHome_Click);
-
+            btnMenu.Click += btnHome_Click;
             // 
             // btnTakeAway
             // 
@@ -117,8 +116,7 @@ namespace WinFormsApp1
             btnTakeAway.Text = "          Mang đi";
             btnTakeAway.TextAlign = ContentAlignment.MiddleLeft;
             btnTakeAway.UseVisualStyleBackColor = false;
-            this.btnTakeAway.Click += new System.EventHandler(this.btnHome_Click);
-
+            btnTakeAway.Click += btnHome_Click;
             // 
             // btnHome
             // 
@@ -139,7 +137,7 @@ namespace WinFormsApp1
             btnHome.Text = "                        Tại quán";
             btnHome.TextAlign = ContentAlignment.MiddleLeft;
             btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            btnHome.Click += btnHome_Click;
             // 
             // btnBill
             // 
@@ -157,11 +155,10 @@ namespace WinFormsApp1
             btnBill.Padding = new Padding(5, 0, 0, 0);
             btnBill.Size = new Size(58, 51);
             btnBill.TabIndex = 4;
-            btnBill.Text = "                       Hóa đơn";
+            btnBill.Text = "                              Hóa đơn";
             btnBill.TextAlign = ContentAlignment.MiddleLeft;
             btnBill.UseVisualStyleBackColor = false;
-            this.btnBill.Click += new System.EventHandler(this.btnHome_Click);
-
+            btnBill.Click += btnHome_Click;
             // 
             // btnRevenua
             // 
@@ -182,7 +179,7 @@ namespace WinFormsApp1
             btnRevenua.Text = "                        Nhân sự";
             btnRevenua.TextAlign = ContentAlignment.MiddleLeft;
             btnRevenua.UseVisualStyleBackColor = false;
-            this.btnRevenua.Click += new System.EventHandler(this.btnHome_Click);
+            btnRevenua.Click += btnHome_Click;
             // 
             // panel4
             // 
@@ -220,8 +217,7 @@ namespace WinFormsApp1
             ptbMenu.SizeMode = PictureBoxSizeMode.AutoSize;
             ptbMenu.TabIndex = 6;
             ptbMenu.TabStop = false;
-            this.ptbMenu.Click += new System.EventHandler(this.ptbMenu_Click);
-
+            ptbMenu.Click += ptbMenu_Click;
             // 
             // btnSetting
             // 
@@ -242,7 +238,7 @@ namespace WinFormsApp1
             btnSetting.Text = "                           Cài đặt";
             btnSetting.TextAlign = ContentAlignment.MiddleLeft;
             btnSetting.UseVisualStyleBackColor = false;
-            this.btnSetting.Click += new System.EventHandler(this.btnHome_Click);
+            btnSetting.Click += btnHome_Click;
             // 
             // pnBody
             // 
@@ -263,14 +259,14 @@ namespace WinFormsApp1
             Controls.Add(pnBody);
             Controls.Add(pnLeft);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.None;
             IsMdiContainer = true;
             Margin = new Padding(4, 3, 4, 3);
             Name = "frmHome";
             StartPosition = FormStartPosition.WindowsDefaultBounds;
             Text = "Quản Lý Quán Cà Phê";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fTableManager_FormClosing);
-            this.Load += new System.EventHandler(this.fTableManager_Load);
+            FormClosing += fTableManager_FormClosing;
+            Load += fTableManager_Load;
             pnLeft.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel4.ResumeLayout(false);

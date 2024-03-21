@@ -112,7 +112,7 @@
             btnCloseFormRevenue.TabIndex = 22;
             btnCloseFormRevenue.Text = "X";
             btnCloseFormRevenue.UseVisualStyleBackColor = false;
-            this.btnCloseFormRevenue.Click += new System.EventHandler(this.btnCloseFormRevenue_Click_1);
+            btnCloseFormRevenue.Click += btnCloseFormRevenue_Click_1;
             // 
             // panel1
             // 
@@ -177,8 +177,7 @@
             button4.TabIndex = 0;
             button4.Text = "Làm mới";
             button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -192,8 +191,7 @@
             button3.TabIndex = 0;
             button3.Text = "Xóa";
             button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -207,8 +205,7 @@
             button2.TabIndex = 0;
             button2.Text = "Sửa";
             button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -222,8 +219,7 @@
             button1.TabIndex = 0;
             button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-
+            button1.Click += button1_Click_1;
             // 
             // panel4
             // 
@@ -576,8 +572,8 @@
             lsvEmployees.TabIndex = 2;
             lsvEmployees.UseCompatibleStateImageBehavior = false;
             lsvEmployees.View = View.Details;
-            this.lsvEmployees.SelectedIndexChanged += new System.EventHandler(this.lsvEmployees_SelectedIndexChanged);
-
+            lsvEmployees.ColumnClick += lsvEmployees_ColumnClick;
+            lsvEmployees.SelectedIndexChanged += lsvEmployees_SelectedIndexChanged;
             // 
             // id
             // 

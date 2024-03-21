@@ -133,7 +133,7 @@ namespace WinFormsApp1
                 lsvBill.Tag = (sender as System.Windows.Forms.Button).Tag;
                 txtNameTable.Text = ((sender as System.Windows.Forms.Button).Tag as TableFood).Name;
 
-                ShowBill(tableID);  //(Công sửa).
+                ShowBill(tableID);  
             }
             catch (Exception ex)
             {
@@ -170,7 +170,6 @@ namespace WinFormsApp1
                     int idBill = _billController.GetUnCheckBill(table.Id);
                     int idFood = (cbFood.SelectedItem as Food).Id;
                     int count = (int)nmFoodCount.Value;
-
                     if (idBill == -1)
                     {
                         _billController.insertBill(table.Id);
@@ -180,6 +179,8 @@ namespace WinFormsApp1
                     {
                         _billInfoController.insertBillInfo(idBill, idFood, count);
                     }
+                    _tableController.ChangeStatus(table.Id);
+                    _tableController.LoadTable();
                     ShowBill(table.Id);
                 }
                 else
@@ -207,8 +208,11 @@ namespace WinFormsApp1
                         {
                             _billController.checkOut(idBill);
                             ShowBill(table.Id);
+                            _tableController.ChangeStatusToFalse(table.Id);
+                            _tableController.LoadTable();
                         }
                     }
+
                 }
                 else
                 {
@@ -240,6 +244,7 @@ namespace WinFormsApp1
             frmAddTable f = new frmAddTable(this);
             f.ShowDialog();
             _tableController.LoadTable();
+            lsvBill.Clear();
         }
 
         private void btnCloseFormTable_Click(object sender, EventArgs e)

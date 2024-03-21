@@ -49,5 +49,15 @@ namespace WinFormsApp1.Controller
                 MessageBox.Show("Thêm bàn thất bại. Vui lòng thử lại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        public void ChangeStatus(int tableId)
+        {
+            _tableModel.ChangeStatus(tableId);
+        }
+
+        public void ChangeStatusToFalse(int tableId)
+        {
+            _tableModel.ChangeStatusToFalse(tableId);
+        }
     }
 }

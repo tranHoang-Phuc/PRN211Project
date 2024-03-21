@@ -50,5 +50,33 @@ namespace WinFormsApp1.Repository
             }
 
         }
+
+        public void ChangeStatus(int tableId)
+        {
+            using(var context = new CoffeemanagerContext())
+            {
+                var table = context.TableFoods.Find(tableId);
+                if (table.Status.Value == false)
+                {
+                    table.Status = true;
+
+                }
+                context.SaveChanges();
+            }
+        }
+
+        public void ChangeStatusToFalse(int tableId)
+        {
+            using (var context = new CoffeemanagerContext())
+            {
+                var table = context.TableFoods.Find(tableId);
+                if (table.Status.Value == true)
+                {
+                    table.Status = false;
+
+                }
+                context.SaveChanges();
+            }
+        }
     }
 }

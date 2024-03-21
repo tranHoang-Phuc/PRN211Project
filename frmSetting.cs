@@ -12,9 +12,11 @@ namespace WinFormsApp1
 {
     public partial class frmSetting : Form
     {
-        public frmSetting()
+        private frmHome frmHome;
+        public frmSetting(frmHome frmHome)
         {
             InitializeComponent();
+            this.frmHome = frmHome;
         }
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -51,6 +53,11 @@ namespace WinFormsApp1
         private void fSetting_Load(object sender, EventArgs e)
         {
             lbAcccountName.Text = frmHome.accountName;
+        }
+
+        private void btnClose_Click_1(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
