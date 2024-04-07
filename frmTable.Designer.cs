@@ -210,7 +210,6 @@
             flpTable.Name = "flpTable";
             flpTable.Size = new Size(734, 600);
             flpTable.TabIndex = 0;
-            flpTable.MouseDown += flpTable_MouseDown;
             // 
             // panel8
             // 

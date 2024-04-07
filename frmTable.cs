@@ -231,13 +231,7 @@ namespace WinFormsApp1
         }
 
 
-        private void flpTable_MouseDown(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Right)
-            {
-                ContextMenuStrip.Show(this, e.Location);
-            }
-        }
+        
 
         private void AddTable_Click(object sender, EventArgs e)
         {
